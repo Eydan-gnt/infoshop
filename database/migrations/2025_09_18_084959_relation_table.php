@@ -22,7 +22,7 @@ return new class extends Migration
             $table->foreignIdFor(App\Models\Produit::class)->constrained()->cascadeOnDelete();
         });
 
-        Schema::table('possedes', function (Blueprint $table) {
+        Schema::table('client_produit', function (Blueprint $table) {
             $table->foreignIdFor(App\Models\Client::class)->constrained()->cascadeOnDelete();
             $table->foreignIdFor(App\Models\Produit::class)->constrained()->cascadeOnDelete();
         });

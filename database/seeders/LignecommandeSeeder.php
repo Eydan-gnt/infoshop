@@ -14,9 +14,9 @@ class LignecommandeSeeder extends Seeder
     public function run(): void
     {
         Lignecommande::create([
-            'id_commande' => 1,
-            'id_produit' => 2,
-            'quantite' => 3,
+            'commande_id' => 1,
+            'produit_id' => 1,
+            'quantite' => 3
         ]);
     }
 }

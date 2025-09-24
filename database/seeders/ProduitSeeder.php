@@ -16,7 +16,7 @@ class ProduitSeeder extends Seeder
         Produit::create([
             'nomProduit' => 'Produit',
             'descProduit' => 'Description',
-            'prixProduit' => 12.99,
+            'prixProduit' => 12.99
         ]);
     }
 }

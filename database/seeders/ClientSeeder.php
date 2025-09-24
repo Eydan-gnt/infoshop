@@ -16,7 +16,7 @@ class ClientSeeder extends Seeder
         Client::create([
             'nomClient' => 'Test',
             'prenomClient' => 'User',
-            'emailClient' => 'test@example.com',
+            'emailClient' => 'test@example.com'
         ]);
     }
 }

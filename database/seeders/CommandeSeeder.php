@@ -15,8 +15,8 @@ class CommandeSeeder extends Seeder
     public function run(): void
     {
         Commande::create([
-            'dateHeure' => 1999-12-12,
-            'client_id' => '1',
+            'dateHeure' => '1999-12-12',
+            'client_id' => 1
         ]);
     }
 }
