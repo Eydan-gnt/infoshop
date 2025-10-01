@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Commande extends Model
 {
-    public function category(): HasMany {
+    public function lignecommandes(): HasMany {
         return $this->hasMany(LigneCommande::class);
     }
 }

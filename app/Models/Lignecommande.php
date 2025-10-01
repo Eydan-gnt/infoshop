@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Lignecommande extends Model
 {
-    public function category(): BelongsTo {
+    public function commandes(): BelongsTo {
         return $this->belongsTo(Commande::class);
     }
 }
